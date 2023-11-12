@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AlphaBI Project
+
 
 ## Getting Started
 
@@ -14,24 +15,36 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Brief project description goes here.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Authentication Requirements
 
-To learn more about Next.js, take a look at the following resources:
+- Users can log in using their email and password or sign up for a new account.
+- Firebase Authentication web SDK is used for the authentication process. [Firebase Authentication Docs](https://firebase.google.com/docs/auth)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## GIF Search and Gallery
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- The application uses the GIPHY API to display a gallery of GIFs based on user-searched keywords.
+- GIPHY API Documentation: [GIPHY API Docs](https://developers.giphy.com/docs/api/)
+- GIPHY API Key: `GlVGYHkr3WSBnllca54iNt0yFbjz7L65`
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## UI Design Reference
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# AlphaBI-Project
+- Use the provided Figma UI design reference for creating a visually appealing and user-friendly interface.
+- Figma UI Design: (https://www.figma.com/file/OKMstziZNG0ckXxmjIEARA/Test-App-Layout?node-id=640%3A77&mode=dev)
+
+## Test User
+
+- Username: `test@gmail.com`
+- Password: `test1234`
+
+## Screenshots
+
+![Screenshot 2023-11-12 104513](https://github.com/abhisek-kar/AlphaBI-Project/assets/101934514/404a4a17-aa65-48ae-ba0b-0723d7f2fd1b)
+![Screenshot 2023-11-12 104555](https://github.com/abhisek-kar/AlphaBI-Project/assets/101934514/fc73fad9-050b-481d-982e-4919075ef0dc)
+
+
+
